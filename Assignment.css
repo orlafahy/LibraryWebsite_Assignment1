@@ -1,0 +1,107 @@
+body 
+{
+	background-color:#FFFFFF;
+}
+
+#header {
+	background:linear-gradient(180deg, white, #E8E8E8);
+	font-family: Apple Chancery;
+	font-size:17pt;
+	position:relative;
+    top:-10px;
+    left:130px;
+    width:80%;
+    height:95px;
+    z-index:100;
+    border-bottom:2px solid darkgreen;
+    box-shadow: 0px 5px 5px 5px #888888;
+}
+
+#header2 {
+	background:linear-gradient(180deg, white, #E8E8E8);
+	position:relative;
+	text-align:right;
+	line-height:2.5;
+    top:-10px;
+    left:130px;
+    width:80%;
+    height:35px;
+    z-index:100;
+    border-bottom-right-radius: 10px; 
+    border-bottom-left-radius: 10px; 
+    box-shadow: 0px 5px 5px 5px #888888;
+}
+
+#search	{
+	position:relative;
+	font-size:20pt;
+	margin-left:520px;
+	top:-100px;
+	z-index:110;
+}
+
+#menu {
+	position:relative;
+    margin-top:-65px;
+    margin-left:850px;
+    z-index:110;
+}
+
+input[type="text"] {
+	height: 20px;
+	width: 220px;
+}
+
+input[type="password"] {
+	height: 20px;
+	width: 220px;
+}
+
+#home {
+	position:relative;
+	top:-65px;
+    margin-left:140px;
+    z-index:110;
+}
+
+#Username {
+	position:relative;
+    margin-top:-20px;
+    margin-left:150px;
+    z-index:100;
+}
+
+#pages {
+	position:relative;
+	margin-left:140px;
+	margin-top:50px;
+}
+
+#footer {
+	position:fixed;
+	bottom:0px;
+	text-align: center;
+	margin-left:40%;
+}
+
+#Footer2 {
+	position:relative;
+	bottom:0px;
+	text-align: center;
+	margin-left:0%;
+}
+	
+#login {
+	position:fixed;
+	margin-left: 40%;
+	margin-top:90px;
+}
+
+#Register {
+	position:relative;
+	margin-left: 40%;
+	margin-top:50px
+}
+
+
+a.ex1:hover,a.ex1:active {color:black;}
